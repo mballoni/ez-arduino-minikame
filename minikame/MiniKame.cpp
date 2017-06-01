@@ -22,14 +22,14 @@
 
 
 MiniKame::MiniKame(): reverse{0, 0, 0, 0, 0, 0, 0, 0}, trim{0, 0, 0, 0, 0, 0, 0, 0} {
-  board_pins[FRONT_RIGHT_HIP] = 2; // front left inner
-  board_pins[FRONT_LEFT_HIP] = 8; // front right inner
+  board_pins[FRONT_RIGHT_HIP] = 10; // front left inner
+  board_pins[FRONT_LEFT_HIP] = 11; // front right inner
   board_pins[BACK_RIGHT_HIP] = 4; // back left inner
-  board_pins[BACK_LEFT_HIP] = 6; // back right inner
-  board_pins[FRONT_RIGHT_LEG] = 3; // front left outer
-  board_pins[FRONT_LEFT_LEG] = 9; // front right outer
-  board_pins[BACK_RIGHT_LEG] = 5; // back left outer
-  board_pins[BACK_LEFT_LEG] = 7; // back right outer
+  board_pins[BACK_LEFT_HIP] = 5; // back right inner
+  board_pins[FRONT_RIGHT_LEG] = 6; // front left outer
+  board_pins[FRONT_LEFT_LEG] = 7; // front right outer
+  board_pins[BACK_RIGHT_LEG] = 8; // back left outer
+  board_pins[BACK_LEFT_LEG] = 9; // back right outer
 }
 
 void MiniKame::init() {

@@ -5,14 +5,14 @@
 //#define __HC_SR04__
 
 #ifdef __HC_SR04__
-#define HC_SR04_TRIGGER_PIN 10
-#define HC_SR04_ECHO_PIN 11
+#define HC_SR04_TRIGGER_PIN A0
+#define HC_SR04_ECHO_PIN A1
 #define MIN_DISTANCE 10
 #define MAX_DISTANCE MIN_DISTANCE + 10
 #endif
 
 #define CAL_TRIGGER_PIN 12
-#define LED_PIN A0
+#define LED_PIN A5
 #define TIME_INTERVAL 5000
 
 #define FORWARD 'f'
